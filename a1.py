@@ -1,10 +1,10 @@
 # Here, the user will input each of their grades
 lab = int(input("Enter the number of labs completed:"))
 if lab > 6:
-    return lab = 6
+    lab = 6
 quiz = int(input("Enter the number of quizzes completed:"))
 if quiz > 6:
-    return quiz = 6
+    quiz = 6
 assi1 = float(input("Enter grade for Assignment 1:"))
 assi2 = float(input("Enter grade for Assignment 2:"))
 assi3 = float(input("Enter grade for Assignment 3:"))
