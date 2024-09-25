@@ -29,6 +29,6 @@ w_prep = mid_fin_prep * 0.06
 
 # Here, the overall grade will be calculated
 overall_grade = w_lab + w_quiz + w_assi + w_mid + w_final + w_prep
-int_overall_grade = int(overall_grade)
+int_overall_grade = int(overall_grade) # The final grade has to be an integer, not a float
 print(f"Your grade is: {int_overall_grade}")
 
